@@ -206,3 +206,103 @@
 //  {
 //     return  a === b;
 //   }
+
+
+//__________________________________________________________________________________________________________________________________
+
+
+
+// 12-05-23
+
+
+// 1.Создайте функцию, которая принимает три аргумента prob, 
+//и возвращает prizeзначение if ; в противном случае возврат .paytrueprob * prize > payfalse
+
+    // function profitableGamble(prob, prize, pay) {
+    //     if(prob * prize > pay){
+    //         return true;
+    //     }
+    //     return false;
+    // }
+    // console.log(profitableGamble(0.2, 50, 9));
+
+
+
+
+// 2.Создайте функцию, которая принимает два аргумента. 
+//Оба аргумента являются целыми числами, aи b. Возврат true, если один из них 10или их сумма равна 10.
+
+    // function makesTen(a, b) {
+    // 	let sum = a + b;
+    // 	return (a == 10 || b == 10 || sum == 10);
+    // }
+    // console.log(makesTen(9, 9));
+
+
+
+// 3. Исправьте код на вкладке кода, чтобы пройти это испытание (только синтаксические ошибки). 
+//Посмотрите на примеры ниже, чтобы получить представление о том, что должна делать функция.
+
+
+    // function maxNum(n1,n2) {
+    // 	if (n1 > n2) {
+    // 	  return n1
+    // 	}
+    // 	return n2
+    // }
+
+
+// 4.Учитывая два аргумента, вернуть массив, содержащий эти два аргумента.
+
+// function makePair(num1, num2) {
+// 	let arr = [num1, num2];
+// 	return arr;
+// }
+// console.log(makePair(512124, 215));
+
+
+// 5. Создайте функцию, которая возвращает значение true, если целое число без остатка делится на 5 и falseв противном случае.
+
+    // function divisibleByFive(n) {
+    // 	if(n % 5 == 0){
+    // 		return true;
+    // 	}
+    // 	return false;
+    // }
+    // console.log(divisibleByFive(37));
+
+
+// 6.Создайте функцию, которая возвращает значение true, если строка пуста и falseв противном случае.
+
+    // function isEmpty(s) {
+    // 	if(s === ""){
+    // 		return true;
+    // 	}
+    // 	return false;
+    // }
+    // console.log(isEmpty(""));
+    // console.log(isEmpty(" "));
+    // console.log(isEmpty("a"));
+
+
+// 7.Создайте функцию, которая принимает целое число и возвращает значение, 
+//trueесли оно делится на 100, в противном случае возвращает значение false.
+
+    // function divisible(num) {
+    // 	if(num % 100 == 0){
+    // 		return true;
+    // 	}
+    // 	return false;
+    // }
+    // console.log(divisible(1000));
+    
+
+
+// 8. Учитывая два целых числа aи b, вернуть, trueесли aможно разделить на b. Вернуть falseв противном случае.
+
+    // function dividesEvenly(a, b) {
+    // 	if (Number.isInteger(a / b)) {
+    //     return true;
+    //   }
+    //   return false;
+    // }
