@@ -337,4 +337,34 @@
     // console.log(reverse([1, 2, 3, 4]));
 
 
-// 12.  
+// 12.  Использование стрелочных функций
+
+    // let arrowFunc = x => x;
+
+
+// 13.Вернуть строку как целое число
+
+    // function stringInt(str) {
+    // 	return parseInt(str);
+    // }
+
+
+// 14. Создайте функцию, которая вычисляет площадь прямоугольника. Если аргументы недействительны, ваша функция должна вернуть -1.
+
+    // function area(h, w) {
+    //     let rez = h * w 
+    //    if(h > 0 && w > 0){
+    //        return rez
+    //    }else{
+    //        return -1
+    //    }
+    // }
+    // console.log(area(3, 4));
+
+// 15 Объединить имя и фамилию в одну строку
+
+    // function concatName(firstName, lastName) {
+    // 	return `${lastName}, ${firstName}`;
+    // }
+    // console.log(concatName("First", "Last"));
+    // console.log(concatName("Doe", "John"));
