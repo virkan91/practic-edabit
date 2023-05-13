@@ -295,7 +295,7 @@
     // 	return false;
     // }
     // console.log(divisible(1000));
-    
+
 
 
 // 8. Учитывая два целых числа aи b, вернуть, trueесли aможно разделить на b. Вернуть falseв противном случае.
@@ -306,3 +306,35 @@
     //   }
     //   return false;
     // }
+
+
+// 9. Создайте функцию, которая принимает строку и возвращает ее как целое число.
+
+    // function stringInt(str) {
+    //     let str = "";
+    //     let num = parseInt(str);
+    //     return num;
+    // }
+    // console.log(stringInt(6));
+
+// 10. Минимум I: если логическое значение, то логическое значение
+
+    // function isEven(n) {
+    // 	if (n % 2 === 0) {
+    // 		return true;
+    // 	}
+    // 		return false;    
+    // }
+
+ 
+// 11. Перевернуть массив
+// Напишите функцию для обращения массива.
+
+    // function reverse(arr) {
+    // 	let rev = arr.reverse();
+    // 	return rev;
+    // }
+    // console.log(reverse([1, 2, 3, 4]));
+
+
+// 12.  
